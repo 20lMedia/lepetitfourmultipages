@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Contact The Petit Four Original bakery - visit our bakery, order custom creations, or reach our team for inquiries. Find our location, hours, and contact details.">
+    <meta name="keywords" content="bakery contact, French bakery location, custom cake orders, bakery hours, contact form">
+    <meta name="theme-color" content="#d4af37" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#121010" media="(prefers-color-scheme: dark)">
+    <title>Contact Us | The Petit Four Original</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="nav-overlay"></div>
+    <header>
+        <div class="logo-container">
+            <h1>The Petit Four<span class="highlight"> Original</span></h1>
+        </div>
+        <div id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="mobile-toggle">
+            <span class="hamburger"></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="chef.html">Our Chef</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Visit our bakery or reach out with inquiries</p>
+        </div>
+    </div>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Visit Our Atelier</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3><i class="fas fa-map-marker-alt"></i> Address</h3>
+                        <p>123 Baker Street</p>
+                        <p>Sweet Town, ST 12345</p>
+                        <a href="https://maps.google.com" target="_blank" class="directions-link">Get Directions <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div class="info-item">
+                        <h3><i class="fas fa-clock"></i> Hours</h3>
+                        <p>Monday - Friday: 7am - 6pm</p>
+                        <p>Saturday: 8am - 5pm</p>
+                        <p>Sunday: 8am - 3pm</p>
+                    </div>
+                    <div class="info-item">
+                        <h3><i class="fas fa-envelope"></i> Contact</h3>
+                        <p>Phone: (555) 123-4567</p>
+                        <p>Email: <a href="mailto:hello@petitfouroriginal.com">hello@petitfouroriginal.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" selected disabled>Select a subject</option>
+                                <option value="inquiry">General Inquiry</option>
+                                <option value="order">Special Order</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="careers">Careers</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="decorative-divider">
+        <div class="divider-icon"><i class="fas fa-map"></i></div>
+    </div>
+
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Us</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="image-placeholder">Map Location</div>
+                    <div class="map-pin">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="decorative-divider">
+        <div class="divider-icon"><i class="fas fa-store"></i></div>
+    </div>
+
+    <section class="special-orders">
+        <div class="container">
+            <h2>Special Orders</h2>
+            <div class="orders-content">
+                <div class="orders-image">
+                    <div class="image-placeholder">Custom Cake Image</div>
+                </div>
+                <div class="orders-text">
+                    <h3>Custom Creations for Special Moments</h3>
+                    <p>We pride ourselves on creating unique, custom pastries and cakes for all your special occasions. From elegant wedding cakes to birthday celebrations and corporate events, our team is committed to bringing your vision to life.</p>
+                    <h4>How to Order:</h4>
+                    <ol class="order-steps">
+                        <li>
+                            <span class="step-number">1</span>
+                            <div class="step-content">
+                                <h5>Initial Consultation</h5>
+                                <p>Contact us to discuss your needs, preferences, and event details.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-number">2</span>
+                            <div class="step-content">
+                                <h5>Design and Tasting</h5>
+                                <p>We'll help you design your perfect creation and arrange a tasting session.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-number">3</span>
+                            <div class="step-content">
+                                <h5>Confirmation and Deposit</h5>
+                                <p>Approve the final design and secure your order with a deposit.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-number">4</span>
+                            <div class="step-content">
+                                <h5>Delivery or Pickup</h5>
+                                <p>Choose between delivery or pickup on your specified date.</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <p><strong>Note:</strong> Please allow at least 48 hours for standard orders and 2-4 weeks for wedding or large event orders.</p>
+                    <a href="#contact" class="btn">Start Your Order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <h2>The Petit Four <span class="highlight">Original</span></h2>
+                    <p class="tagline">Pâtisserie Française Premium</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Menu Rapide</h3>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="about.html">À Propos</a></li>
+                            <li><a href="chef.html">Notre Chef</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Politiques</h3>
+                        <ul>
+                            <li><a href="privacy.html">Politique de Confidentialité</a></li>
+                            <li><a href="terms.html">Conditions d'Utilisation</a></li>
+                            <li><a href="refund.html">Politique de Remboursement</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Newsletter</h3>
+                        <p>Abonnez-vous pour recevoir nos offres spéciales</p>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="Votre email">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 The Petit Four Original. Tous droits réservés.</p>
+            </div>
+        </div>
+        <div class="footer-decor"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

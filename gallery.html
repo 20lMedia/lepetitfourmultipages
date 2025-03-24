@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Explore our gallery showcasing The Petit Four Original's exquisite French pastries, cakes, and artisan breads.">
+    <meta name="keywords" content="French pastry gallery, bakery photos, pastry images, petit four gallery, cake gallery">
+    <meta name="theme-color" content="#d4af37" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#121010" media="(prefers-color-scheme: dark)">
+    <title>Gallery | The Petit Four Original</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="nav-overlay"></div>
+    <header>
+        <div class="logo-container">
+            <h1>The Petit Four<span class="highlight"> Original</span></h1>
+        </div>
+        <div id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="mobile-toggle">
+            <span class="hamburger"></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="chef.html">Our Chef</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <p>A visual feast showcasing our artisanal creations</p>
+        </div>
+    </div>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Creations</h2>
+            <div class="gallery-intro">
+                <p>Feast your eyes on our gallery showcasing the artistry and precision that goes into each of our handcrafted pastries. Every image captures the essence of our commitment to quality and beauty.</p>
+            </div>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All Creations</button>
+                <button class="filter-btn" data-filter="pastries">Pastries</button>
+                <button class="filter-btn" data-filter="cakes">Cakes</button>
+                <button class="filter-btn" data-filter="breads">Breads</button>
+                <button class="filter-btn" data-filter="petit-fours">Petit Fours</button>
+                <button class="filter-btn" data-filter="seasonal">Seasonal</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="pastries">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Croissant Image</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Classic Croissants</h4>
+                        <p>Buttery and flaky</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="pastries petit-fours">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Macaron Image</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>French Macarons</h4>
+                        <p>Light and delicate</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cakes">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Opera Cake Image</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Opera Cake</h4>
+                        <p>Rich coffee and chocolate layers</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cakes seasonal">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Fruit Tart Image</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Fresh Fruit Tart</h4>
+                        <p>Seasonal fruits with custard</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="breads">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Sourdough Image</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Artisan Sourdough</h4>
+                        <p>Traditional fermentation</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="breads">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Baguette Image</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>French Baguettes</h4>
+                        <p>Crispy crust, soft interior</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="petit-fours">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Classic Petit Four</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Classic Almond Petit Fours</h4>
+                        <p>Delicate and elegant</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="pastries">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Pain au Chocolat</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Pain au Chocolat</h4>
+                        <p>Chocolate-filled perfection</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cakes seasonal">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Fraisier Cake</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Fraisier</h4>
+                        <p>Strawberry season specialty</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="breads">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Specialty Bread</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Walnut & Fig Loaf</h4>
+                        <p>Rich and nutty flavor</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="petit-fours">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Chocolate Petit Four</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Chocolate Ganache Petit Fours</h4>
+                        <p>Decadent chocolate bites</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cakes">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">Paris-Brest</div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Paris-Brest</h4>
+                        <p>Hazelnut praline cream</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-modal">
+                <span class="modal-close">&times;</span>
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <div class="image-placeholder">Enlarged Image</div>
+                    </div>
+                    <div class="modal-caption">
+                        <h3>Image Title</h3>
+                        <p>Image description</p>
+                    </div>
+                </div>
+                <div class="modal-nav">
+                    <button class="modal-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="modal-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="decorative-divider">
+        <div class="divider-icon"><i class="fas fa-camera"></i></div>
+    </div>
+
+    <section class="gallery-cta">
+        <div class="container">
+            <h2>Follow Us on Instagram</h2>
+            <p>See our latest creations, behind-the-scenes peeks, and special announcements</p>
+            <div class="social-preview">
+                <div class="insta-preview">
+                    <div class="image-placeholder">Instagram Post 1</div>
+                </div>
+                <div class="insta-preview">
+                    <div class="image-placeholder">Instagram Post 2</div>
+                </div>
+                <div class="insta-preview">
+                    <div class="image-placeholder">Instagram Post 3</div>
+                </div>
+                <div class="insta-preview">
+                    <div class="image-placeholder">Instagram Post 4</div>
+                </div>
+            </div>
+            <a href="https://instagram.com" target="_blank" class="btn btn-social">
+                <i class="fab fa-instagram"></i> Follow @petitfouroriginal
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <h2>The Petit Four <span class="highlight">Original</span></h2>
+                    <p class="tagline">Pâtisserie Française Premium</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Menu Rapide</h3>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="about.html">À Propos</a></li>
+                            <li><a href="chef.html">Notre Chef</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Politiques</h3>
+                        <ul>
+                            <li><a href="privacy.html">Politique de Confidentialité</a></li>
+                            <li><a href="terms.html">Conditions d'Utilisation</a></li>
+                            <li><a href="refund.html">Politique de Remboursement</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Newsletter</h3>
+                        <p>Abonnez-vous pour recevoir nos offres spéciales</p>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="Votre email">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 The Petit Four Original. Tous droits réservés.</p>
+            </div>
+        </div>
+        <div class="footer-decor"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
